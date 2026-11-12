@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile App Marketing Video"
+  short_description: "Turn app captures into bilingual promo videos"
+  default_prompt: "Use $create-mobile-app-marketing-video to turn these app screenshots and recordings into polished Urdu and English marketing videos."

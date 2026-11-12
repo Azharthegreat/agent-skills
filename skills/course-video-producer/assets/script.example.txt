@@ -1,0 +1,2 @@
+These six records are the sample we can inspect. They do not automatically represent every delivery.
+Which population should our conclusion describe: every delivery, or one depot's deliveries? Define that before interpreting a percentage.

@@ -1,0 +1,8 @@
+{
+  "transport": "google-drive",
+  "folder_name": "Codex Session Backups",
+  "folder_id": "",
+  "folder_url": "",
+  "parent": "My Drive root",
+  "_note": "Set folder_id and folder_url to your own Drive folder, or keep them empty and put them in <CODEX_HOME>/session-transfer/settings.json so they never enter a shared copy of this skill."
+}

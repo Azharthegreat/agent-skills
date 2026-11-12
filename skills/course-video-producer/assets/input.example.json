@@ -1,0 +1,31 @@
+{
+  "topic": {"title": "Data Mining: Samples and Populations", "module_id": "DM01-example", "scope": "Two-scene teaching excerpt, not a complete module", "audience": "Complete beginners", "objectives": ["Distinguish observed records from the intended population"]},
+  "reference_material": [
+    {"role": "Character", "path": "references/presenter.png", "browser_reference": "@Azhar", "rights": "Supply the owner-authorized portrait"},
+    {"role": "Location", "path": "references/studio.png", "browser_reference": "@CourseStudio", "rights": "Supply an approved studio image"},
+    {"role": "Logo", "path": "references/logo.png", "browser_reference": "@Logo", "rights": "Supply original brand asset"}
+  ],
+  "final_script": "script.txt",
+  "code_demo_assets": [],
+  "visual_style": {
+    "presenter_reference": "@Azhar",
+    "presenter_description": "The sole male presenter, preserving the supplied authorized identity. Use he/him.",
+    "clothing": "Dark suit, white shirt and dark tie from the reference",
+    "location_reference": "@CourseStudio",
+    "logo_reference": "@Logo",
+    "logo_description": "Original black square, white geometry and red center, static flat 2D",
+    "logo_box": "Top-left, 7 percent of width, 3 percent safe margins",
+    "studio": "Professional teaching studio from @CourseStudio; discard the portrait location",
+    "framing": "Eye-level medium shot, presenter right, authored teaching area left",
+    "voice_direction": "Use the original owner-approved course voice target; verify against the actual approved local sample before acceptance",
+    "audio_direction": "One calm English teaching voice, no music or effects, no substitute named voice",
+    "teaching_media": ["presenter", "progressive authored diagram"]
+  },
+  "output": {"directory": "out-v1", "filename": "samples-and-populations.mp4", "width": 1280, "height": 720, "fps": 24, "ffmpeg": "ffmpeg", "ffprobe": "ffprobe", "duration_rationale": "Two complete ideas; trim surplus silent tails after listening, do not pad to nominal duration"},
+  "generation": {"provider": "grok-browser", "browser_subscription": true, "clip_seconds": 15, "retry_limit": 2, "batch_size": 1, "interval_seconds": 120},
+  "publication": {"authorized": false, "visibility": "unlisted", "stop_after": "delivery package"},
+  "scenes": [
+    {"id": "S001", "coverage": ["sample-definition"], "medium": "presenter plus authored diagram", "objective": "Define the observed sample", "visual": "Indicate a reserved diagram area; editor adds six synthetic record cards, never generated text", "dialogue": "These six records are the sample we can inspect. They do not automatically represent every delivery.", "beats": [{"time": "0.3-8.0s", "action": "Indicate the record area, then face the learner", "dialogue": "These six records are the sample we can inspect. They do not automatically represent every delivery."}, {"time": "8.0-15.0s", "action": "Neutral silent editing handle; trim surplus in post", "dialogue": ""}]},
+    {"id": "S002", "coverage": ["population-question"], "medium": "authored diagram with retained source narration", "objective": "Define the intended population", "visual": "Editor cuts to a larger outlined population group and keeps the synthetic example label", "dialogue": "Which population should our conclusion describe: every delivery, or one depot's deliveries? Define that before interpreting a percentage.", "beats": [{"time": "0.3-10.0s", "action": "Ask clearly, then leave a natural pause", "dialogue": "Which population should our conclusion describe: every delivery, or one depot's deliveries? Define that before interpreting a percentage."}, {"time": "10.0-15.0s", "action": "Silent editing handle, no extra speech", "dialogue": ""}]}
+  ]
+}

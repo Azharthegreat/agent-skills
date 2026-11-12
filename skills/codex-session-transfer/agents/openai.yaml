@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Session Transfer"
+  short_description: "Move complete saved chats between your computers"
+  default_prompt: "Use $codex-session-transfer to export or import a Codex session by ID, using Google Drive unless I specify a local folder."

@@ -1,0 +1,23 @@
+{
+  "channelId": "UCxxxxxxxxxxxxxxxxxxxxxx",
+  "app": {
+    "name": "Example App",
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.example.app",
+    "website": "https://www.example.com",
+    "defaultTags": ["example app", "android app"]
+  },
+  "videos": [
+    {
+      "path": "D:\\campaign\\feature-short.mp4",
+      "kind": "short",
+      "title": "Feature Name for Android Testing | Example App #Shorts",
+      "description": "See how this verified feature supports a legitimate Android workflow.",
+      "primaryKeyword": "android testing",
+      "keywords": ["feature keyword", "mobile QA"],
+      "tags": ["example app", "android testing", "mobile QA"],
+      "hashtags": ["#androidtesting", "#Shorts"],
+      "visibility": "public",
+      "madeForKids": false
+    }
+  ]
+}

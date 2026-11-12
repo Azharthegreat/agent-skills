@@ -1,0 +1,16 @@
+{
+  "_comment": "English VO, one line per scene (9 scenes). Voice en-US-AvaNeural.",
+  "voice": "en-US-AvaNeural",
+  "rate": "+8%",
+  "lines": [
+    "Unknown number calling? Find out who it is.",
+    "Astra's phone directory. One number, full identity.",
+    "Ahmed Raza. A property dealer in Lahore.",
+    "Fatima Noor. A dermatologist in Karachi.",
+    "Bilal Hussain. An advocate in Islamabad.",
+    "Ayesha Siddiqui. A teacher in Rawalpindi.",
+    "Usman Tariq. A trader in Faisalabad.",
+    "Name, network and city, at a glance.",
+    "Astra Recorder. Free on Google Play."
+  ]
+}

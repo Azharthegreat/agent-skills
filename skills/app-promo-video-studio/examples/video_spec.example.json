@@ -1,0 +1,54 @@
+{
+  "_comment": "Exact spec that produced the shipped Astra Phone Directory promo (10 Oct 2026). Copy this, swap app name, screenshots, demo records, CTA and disclosure lines. Scene images live in assets/ and come from the emulator capture step.",
+  "brand": {
+    "blue_top": [8, 46, 86], "blue_bot": [16, 86, 150],
+    "accent": [14, 99, 176], "dark": [22, 32, 43], "grey": [120, 132, 146],
+    "light_top": [235, 241, 249], "light_bot": [252, 253, 255]
+  },
+  "fonts": { "black": "ariblk.ttf", "bold": "arialbd.ttf", "regular": "arial.ttf" },
+  "icon": "icon.png",
+  "thumbnail": {
+    "headline": "WHO'S CALLING?",
+    "sub": "Caller ID for any number",
+    "badge": "FREE",
+    "card_image": "card1.png",
+    "icon": "icon.png"
+  },
+  "scenes": [
+    { "type": "hook", "kicker": "INCOMING CALL", "circle_text": "?",
+      "label": "Unknown number", "sublabel": "+92 300 000 ****",
+      "title": "Who's calling?",
+      "sub": ["Astra tells you who any", "number belongs to. Instantly."] },
+
+    { "type": "screenshot", "kicker": "PHONE DIRECTORY",
+      "title": "One number. Full identity.", "image": "home_top.png", "width": 860, "y": 360 },
+
+    { "type": "card", "caption": "PROPERTY DEALER   -   LAHORE", "image": "card1.png",
+      "brand": "Astra  -  Phone Directory",
+      "brand_sub": "name - network - city" },
+
+    { "type": "card", "caption": "DERMATOLOGIST   -   KARACHI", "image": "card2.png",
+      "brand": "Astra  -  Phone Directory",
+      "brand_sub": "name - network - city" },
+
+    { "type": "card", "caption": "ADVOCATE   -   ISLAMABAD", "image": "card3.png",
+      "brand": "Astra  -  Phone Directory",
+      "brand_sub": "name - network - city" },
+
+    { "type": "card", "caption": "TEACHER   -   RAWALPINDI", "image": "card4.png",
+      "brand": "Astra  -  Phone Directory",
+      "brand_sub": "name - network - city" },
+
+    { "type": "card", "caption": "TEXTILE TRADER   -   FAISALABAD", "image": "card5.png",
+      "brand": "Astra  -  Phone Directory",
+      "brand_sub": "name - network - city" },
+
+    { "type": "statement", "bg": "blue", "lead": "One number tells you",
+      "lines": ["Name.", "Network.", "City."],
+      "tail": "All inside Astra." },
+
+    { "type": "cta", "title": "Astra Recorder", "subtitle": "Phone Directory  +  Caller ID",
+      "button": "Free on Google Play", "icon": "icon.png",
+      "notes": ["Listings come from a third-party directory.", "Your number can be removed on request."] }
+  ]
+}
