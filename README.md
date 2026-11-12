@@ -16,6 +16,7 @@ machines.
 | [course-video-producer](skills/course-video-producer) | Produces long-form course videos with Grok Imagine: consistent presenter, set and logo references, short directed clips assembled into modules, and a verified YouTube-ready package. |
 | [youtube-video-seo-publisher](skills/youtube-video-seo-publisher) | Uploads and publishes YouTube videos through a dedicated Playwright profile, with search-focused titles and descriptions, app links, draft recovery and duplicate protection. |
 | [codex-session-transfer](skills/codex-session-transfer) | Exports a Codex chat (history, memory, goals, schedules, attachments) to a portable ZIP and imports it on another machine with path mapping. |
+| [agensi-skill-publisher](skills/agensi-skill-publisher) | Takes skill folders to paid Agensi.io listings: privacy-scrubbed copies, a two-pass check, listing copy built only from real facts, logo and thumbnail rules, then priced drafts and submission for review, with each step waiting on your yes. |
 
 ## Install
 
